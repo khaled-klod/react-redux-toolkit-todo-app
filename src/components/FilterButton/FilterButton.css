@@ -1,0 +1,10 @@
+.FilterButton {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.FilterButton:not(:last-child) {
+  margin-right: 1rem;
+}

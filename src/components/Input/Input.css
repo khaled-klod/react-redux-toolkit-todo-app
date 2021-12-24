@@ -1,0 +1,15 @@
+.InputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Input {
+  width: 40vw;
+  min-width: 15rem;
+  max-height: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #e1ebfd;
+  border-radius: 5px;
+  align-self: center;
+}

@@ -1,0 +1,67 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    background: #b4b6da;
+    background: radial-gradient(
+      circle,
+      rgba(180, 182, 218, 0.9) 0,
+      rgba(226, 236, 253, 0.9) 100%
+    );
+    margin: 0 1rem 1rem 0;
+    height: 8rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .Card textarea:disabled {
+    background-color: transparent;
+  }
+  
+  .Card textarea {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #e1ebfd;
+    color: #271c6c;
+    height: 70%;
+    margin-bottom: 1rem;
+  }
+  
+  .TextArea {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #e1ebfd;
+    color: #271c6c;
+    height: 70%;
+    background-color: transparent;
+  }
+  
+  .CrudButtons {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .CrudButtons button {
+    border-radius: 20%;
+    border: none;
+    margin: 0 0.6rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #271c6c;
+    background-color: transparent;
+  }
+
+  .Completed {
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    background-color: #867bcd;
+    border: 2px solid #272727;
+    color: #e1ebfd;
+    font-size: .8rem;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+  }
